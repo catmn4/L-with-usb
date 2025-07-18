@@ -1,0 +1,20 @@
+CACHE MANIFEST
+# random: 26d69341297f78d325fe983a9efcfb50bc287507a365d88df3ef13e94cb4a7ff
+
+CACHE:
+Cache.manifest
+common/relocator.js
+common/syscalls.js
+common/syscalls2.js
+index.html
+jb.html
+mira/mira.js
+mira/mira2.js
+mira/jbcldr.js
+payload.html
+webkit-9.00/exploit.js
+webkit-9.00/malloc.js
+webkit-9.00/rop/rop.js
+
+NETWORK:
+*
