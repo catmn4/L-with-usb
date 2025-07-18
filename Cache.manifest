@@ -8,6 +8,10 @@ common/syscalls.js
 common/syscalls2.js
 index.html
 jb.html
+kexploit/int64.js
+kexploit/kexploit.js
+kexploit/rop.js
+kexploit-launcher.js
 mira/mira.js
 mira/mira2.js
 mira/jbcldr.js

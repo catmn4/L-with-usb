@@ -51,11 +51,21 @@ function afterKernel()
 
 var params = getHashParams();
 </script>
+<script src="netcat.js"></script>
+<script src="webkit-9.00/exploit.js"></script>
+<script src="webkit-9.00/malloc.js"></script>
+<script src="webkit-9.00/rop/rop.js"></script>
+<script src="common/syscalls.js"></script>
+<script src="common/syscalls2.js"></script>
 <script>
-if("p0" in params)
+if('p0' in params)
     runScript(params.p0);
-if("p1" in params)
+if('p1' in params)
     runScript(params.p1);
 </script>
+<script src="kexploit/int64.js"></script>
+<script src="kexploit/rop.js"></script>
+<script src="kexploit/kexploit.js"></script>
+<script src="kexploit-launcher.js"></script>
 </body>
 </html>
